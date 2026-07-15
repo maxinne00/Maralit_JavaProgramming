@@ -1,4 +1,4 @@
-public class studentInformation{
+public class Activity1{
     // this is my activity 1
 
     public static void main (String [] args) {
@@ -8,23 +8,22 @@ public class studentInformation{
     String gradeLevel="Grade 12";
     String school="Jose Abad Santos Memorial School";
     String favoriteSubject="Philosophy";
-    Double generalAverage="93"
+    Double generalAverage=93.0;
     Boolean honorStudent=true;
 
-    System.Out.println("+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-");
-    System.Out.println("                                                             ");
-    System.Out>println(".-=-._.-=-._.-=-._.-=STUDENT INFORMATION=-._.-=-._.-=-._.-=-.");
-    System.Out.println("Student Name:" + studentName);
-    System.Out>println("Student Age:" + age )
-    System.Out.println("Grade Level:" + gradeLevel);
-    System.Out.println("School:" + school);
-    System.Out.println("Favorite Subject:" + favoriteSubject);
-    System.Out.println("Favorite Subject:" + favoriteSubject);
-    System.Out.println("                                                             ");
-    System.Out.println("Average" + generalAverage);
-    System.Out.println("Honor Student:"+ honorStudent)
-    System.Out.println("                                                             ");
-    System.Out.println("+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-");
+    System.out.println("+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+");
+    System.out.println("                                                             ");
+    System.out.println(".-=-._.-=-._.-=-._.-=STUDENT INFORMATION=-._.-=-._.-=-._.-=-.");
+    System.out.println("Student Name:" + studentName);
+    System.out.println("Student Age:" + age );
+    System.out.println("Grade Level:" + gradeLevel);
+    System.out.println("School:" + school);
+    System.out.println("Favorite Subject:" + favoriteSubject);
+    System.out.println("                                                             ");
+    System.out.println("Average" + generalAverage);
+    System.out.println("Honor Student:"+ honorStudent);
+    System.out.println("                                                             ");
+    System.out.println("+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+");
     }
 
 }
