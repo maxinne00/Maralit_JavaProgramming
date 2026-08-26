@@ -10,27 +10,37 @@ public class Activity8 {
             if (num1 == 1) {
                 System.out.println(num1 + " = Monday");
 
-            } else if(num1 == 2) {
+            } 
+            else if(num1 == 2) {
                 System.out.println(num1 + " = Tuesday");
 
-            } else if(num1 == 3) {
+            } 
+            else if(num1 == 3) {
                 System.out.println(num1 + " = Wednesday");
 
-            } else if(num1 == 4) {
-                System.out.println(num1 + " = Thursday");
+            } 
+            else if(num1 == 4) {
+              
+               System.out.println(num1 + " = Thursday");
         
 
-            } else if(num1 == 5) {
+            } 
+            else if(num1 == 5) {
                 System.out.println(num1 + " = Friday");
 
-            } else if(num1 == 6) {
+            } 
+            else if(num1 == 6) {
                 System.out.println(num1 + " = Saturday");
 
-            } else if(num1 == 7) {
+            } 
+            else if(num1 == 7) {
                 System.out.println(num1 + " = Sunday");
 
-            } else {
+            } 
+            else {
                 System.out.println("There are only 7 days a week!");
             }
+                scn.close();
         }
+    
     }
