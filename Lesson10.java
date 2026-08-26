@@ -4,6 +4,26 @@ public class Lesson10 {
 	public static void main(String[] args) {
 		Scanner scn = new Scanner(System.in);
 
+        System.out.print("Enter your age: ");
+        int num1 = scn.nextInt();
+
+        if (num1 <= 17) {
+            System.out.println("you are a minor");
+        }
+        else if (num1 >= 18 && num1 <= 21) {
+            System.out.println("you are between 18 and 21 yrs old");
+        }
+        else {
+            System.out.println("you are an adult");
+        }
+
+
+
+
+
+
+
+        /* 
             System.out.println("enter a number: ");
             int num1 = scn.nextInt();
 
@@ -14,8 +34,7 @@ public class Lesson10 {
             }
 
 
-         
-        /* 
+        
         System.out.print("ARE YOU A FILIPINO?: ");
         char nationality = scn.next().charAt(0);
       
