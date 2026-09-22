@@ -1,29 +1,56 @@
-public class Activity1{
-    // this is my activity 1
+import java.util.Scanner;
 
-    public static void main (String [] args) {
+public class Activity1 {
+      public static void main(String[] args) {
+       Scanner scn = new Scanner(System.in);
 
-    String studentName= "Maxinne";
-    int age= 17;
-    String gradeLevel="Grade 12";
-    String school="Jose Abad Santos Memorial School";
-    String favoriteSubject="Philosophy";
-    Double generalAverage=93.0;
-    Boolean honorStudent=true;
 
-    System.out.println("+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+");
-    System.out.println("                                                             ");
-    System.out.println(".-=-._.-=-._.-=-._.-=STUDENT INFORMATION=-._.-=-._.-=-._.-=-.");
-    System.out.println("Student Name:" + studentName);
-    System.out.println("Student Age:" + age );
-    System.out.println("Grade Level:" + gradeLevel);
-    System.out.println("School:" + school);
-    System.out.println("Favorite Subject:" + favoriteSubject);
-    System.out.println("                                                             ");
-    System.out.println("Average" + generalAverage);
-    System.out.println("Honor Student:"+ honorStudent);
-    System.out.println("                                                             ");
-    System.out.println("+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+");
-    }
+    
 
+
+    System.out.println("==================sign up==================");
+
+
+    System.out.println("Enter your username: ");
+    String userName = scn.nextLine();
+
+    System.out.println("Enter your password: ");
+    String Password = scn.nextLine();
+
+    
+    System.out.println("Confirm password: ");
+    String entered = scn.nextLine();
+
+
+     while(!entered.equals(Password)) {
+                System.out.println("password does not match, please try again");
+                System.out.println("ENTER PASSWORD: ");
+                entered = scn.nextLine();
+         } 
+     System.out.println("==================login==================");
+     
+     System.out.println("Enter your username: ");
+     String user = scn.nextLine();
+
+     System.out.println("Enter your password: ");
+     String password = scn.nextLine();
+
+
+            
+          while(!user.equals(userName)) {
+                System.out.println("username does not match, please try again");
+                System.out.println("ENTER USERNAME: ");
+                user = scn.nextLine();
+
+      }
+
+              System.out.println("Enter your password: ");
+              password = scn.nextLine();
+
+       while(!password.equals(Password)) {
+                System.out.println("password does not match, please try again");
+                System.out.println("ENTER PASSWORD: ");
+                entered = scn.nextLine();
+      }
+     }
 }
