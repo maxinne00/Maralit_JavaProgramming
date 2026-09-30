@@ -1,3 +1,4 @@
+package finals;
 import java.util.Scanner;
 
 public class Activity1 {
@@ -37,7 +38,7 @@ public class Activity1 {
 
 
             
-          while(!user.equals(userName)) {
+            while(!user.equals(userName)) {
                 System.out.println("username does not match, please try again");
                 System.out.println("ENTER USERNAME: ");
                 user = scn.nextLine();
@@ -47,10 +48,11 @@ public class Activity1 {
               System.out.println("Enter your password: ");
               password = scn.nextLine();
 
-       while(!password.equals(Password)) {
+            while(!password.equals(Password)) {
                 System.out.println("password does not match, please try again");
                 System.out.println("ENTER PASSWORD: ");
-                entered = scn.nextLine();
+                password = scn.nextLine();
       }
+            System.out.println("login successful");
      }
 }
