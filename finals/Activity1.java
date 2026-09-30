@@ -42,9 +42,9 @@ public class Activity1 {
                 System.out.println("username does not match, please try again");
                 System.out.println("ENTER USERNAME: ");
                 user = scn.nextLine();
-
       }
 
+              System.out.println("invalid password, please try again");
               System.out.println("Enter your password: ");
               password = scn.nextLine();
 
